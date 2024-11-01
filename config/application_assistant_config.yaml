@@ -1,0 +1,22 @@
+llm:
+  model_name: "llama3.1:8b"
+  temperature: 0.7
+
+templates:
+  cv:
+    - standard
+    - modern
+    - academic
+  cover_letter:
+    - standard
+    - formal
+    - creative
+
+processing:
+  chunk_size: 1000
+  overlap: 200
+
+file_types:
+  - pdf
+  - docx
+  - txt
